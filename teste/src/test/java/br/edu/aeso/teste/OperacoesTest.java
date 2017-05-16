@@ -11,7 +11,7 @@ public class OperacoesTest {
 	public void somaTest() {
 		Operacoes op = new Operacoes(3,3);
 		int ret = op.soma();
-		Assert.assertEquals(3, ret);
+		Assert.assertEquals(4, ret);
 	}
 	
 	@Test
