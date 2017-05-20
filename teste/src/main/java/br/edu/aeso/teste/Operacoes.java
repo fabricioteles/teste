@@ -3,7 +3,7 @@ package br.edu.aeso.teste;
 public class Operacoes {
 
 	private int num1;
-	private int num2ds;
+	private int num2;
 	
 	public Operacoes(int num1, int num2) {
 		this.num1 = num1;
