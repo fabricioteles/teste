@@ -20,5 +20,19 @@ public class OperacoesTest {
 		int ret = op.subtracao();
 		Assert.assertEquals(2, ret);
 	}
+	
+	@Test
+	public void divTest(){
+		Operacoes op = new Operacoes(5, 2);
+		double ret = op.divisao();
+		Assert.assertEquals(2,5, ret);
+	}
+	
+	@Test
+	public void mulTest(){
+		Operacoes op = new Operacoes(5, 5);
+		double ret = op.multiplicacao();
+		Assert.assertEquals(10.0, ret);
+	}
 
 }
